@@ -1,0 +1,20 @@
+.img-logo{
+    height: 30px;
+    width: 25%;     
+}
+
+.navbar .collapse.navbar-collapse{
+    flex-grow: inherit;
+}
+
+.navbar .collapse li a{
+    color: black;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: black;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
