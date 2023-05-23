@@ -30,6 +30,19 @@
     box-shadow: none;
 }
 
+.footer__img{
+    width: 10%;
+    height: auto;
+}
+
+.footer__list{
+    list-style-type: none;
+}
+
+.footer__list li{
+    display: flex;
+    justify-content: center;
+}
 /* .header__content{
     height: calc(100vh - 60px);
 } */
