@@ -1,20 +1,41 @@
-.img-logo{
+.logo-edit{
     height: 30px;
-    width: 25%;     
+    width: 20%;
+}
+
+.header__img{
+    width: 80%;
+    height: 110%;
+}
+
+.header__img__second{
+    max-height: 80%;
+    width: 85%;
 }
 
 .navbar .collapse.navbar-collapse{
     flex-grow: inherit;
 }
 
-.navbar .collapse li a{
+.navbar a{
     color: black;
 }
 
 .nav-link:focus, .nav-link:hover{
+    /* color: var(--bs-nav-link-color); */
     color: black;
 }
 
 .navbar-toggler:focus{
     box-shadow: none;
+}
+
+/* .header__content{
+    height: calc(100vh - 60px);
+} */
+
+@media(min-width: 576px){
+    .header__order{
+        order: -1;
+    }
 }
