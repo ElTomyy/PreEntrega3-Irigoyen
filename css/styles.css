@@ -65,6 +65,17 @@
   max-width: 70%;
 }
 
+.main h1 {
+  text-decoration: underline;
+  font-size: 140%;
+}
+.main .header__form {
+  margin: 2% 5% auto 5%;
+}
+.main .header__form a {
+  text-decoration: none;
+}
+
 .footer__list {
   list-style-type: none;
   justify-content: space-around;
@@ -133,6 +144,9 @@
     width: fit-content;
     justify-self: center;
     font-size: 150%;
+  }
+  .main h1 {
+    font-size: 200%;
   }
   .footer__list {
     padding-top: 5%;

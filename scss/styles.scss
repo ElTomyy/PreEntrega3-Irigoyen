@@ -1,12 +1,12 @@
 // Navbar
 
 .navbar{
-   
+
     a {
         color: black;
         font-weight: bold;
     }
-    
+
     .nav-item a{
         color: black;
         font-weight: normal;
@@ -94,11 +94,28 @@
     }
 }
 
-// Header trabaja con nosotros
+// Header hace tu pedido
+
+.main{
+
+    h1{
+        text-decoration: underline;
+        font-size: 140%;
+    }
+
+    .header__form{
+        margin: 2% 5% auto 5%;
+
+        a{
+            text-decoration: none;
+        }
+    }
+
+}
 
 // Header proyectos
 
-// Header hace tu pedido
+// Header trabaja con nosotros
 
 // Footer
 
@@ -134,7 +151,7 @@
     // Header index
 
     .header__content{
-        
+
         .header__order{
             order: -1;
         }
@@ -185,7 +202,7 @@
 
         .preg__header__content{
             display: grid;
-        
+
         .header__p__preg{
             width: fit-content;
             justify-self: center;
@@ -201,11 +218,18 @@
         }
     }
 
-    // Header trabaja con nosotros
+    // Header hace tu pedido
+
+    .main{
+
+        h1{
+            font-size: 200%;
+        }
+    }
 
     // Header proyectos
 
-    // Header hace tu pedido
+    // Header trabaja con nosotros
 
     // Footer all
 
@@ -215,7 +239,7 @@
         .footer__p{
             font-size: 160%;
         }
-    
+
         .footer__img{
             width: 80%;
             height: 80%;
