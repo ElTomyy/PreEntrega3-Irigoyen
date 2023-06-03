@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Hace tu pedido</title>
+</head>
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="../../index.html"><img class="logo-edit" src="../../assets/images/logo.webp" alt="">My New House</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../proyectos/proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../hace-tu-pedido/hace-tu-pedido.html">Hace tu pedido</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../trabaja-con-nosotros/trabaja-con-nosotros.html">Trabaja con nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../preguntas/preguntas.html">Preguntas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="main__hace-tu-pedido">
+
+    <div class="d-grid justify-content-center mt-5"><h1>Por favor Llene este formulario</h1></div>
+
+    <form class="header__form row g-3 was-validated" novalidate>
+      <div class="mt-5 col-md-4">
+        <label for="inputName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputName" required>
+      </div>
+      <div class="mt-5 col-md-4">
+        <label for="inputLastName" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="inputLastName" required>
+      </div>
+      <div class="mt-5 col-md-4">
+        <label for="inputNumberDocumment" class="form-label">Num. de documento</label>
+        <input type="text" class="form-control" id="inputNumberDocumment" required>
+      </div>
+      <div class="mt-5 col-md-6">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com" required>
+      </div>
+      <div class="mt-5 col-md-6">
+        <label for="inputPassword" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputPassword" required>
+      </div>
+      <div class="mt-5 col-md-3">
+        <label for="inputPais" class="form-label">Pais</label>
+        <input type="text" class="form-control" id="inputPais" required>
+      </div>
+      <div class="mt-5 col-md-3">
+        <label for="inputEstado" class="form-label">Estado/Provincia</label>
+        <input type="text" class="form-control" id="inputEstado" required>
+      </div>
+      <div class="mt-5 col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip" required>
+      </div>
+      <div class="mt-5 col-md-4">
+        <label for="inputPiso" class="form-label">Piso/Dpto</label>
+        <input type="text" class="form-control" id="inputPiso">
+      </div>
+      <div class="d-flex mt-5 col-md-4 justify-content-center">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck">
+            Hacepto los <a href="#">Terminos y Condiciones</a>
+          </label>
+          <div class="invalid-feedback">
+            Tienes que aceptar los terminos.
+          </div>
+        </div>
+      </div>
+      <div class="d-flex col-md-8 justify-content-center mt-5"><p>*El especialista puede demorarse hasta 7 dias habiles en llegar a su vivienda</p></div>
+      <div class="mt-5 col-12">
+        <button type="submit" class="btn btn-primary">Entregar</button>
+      </div>
+     
+    </form>
+
+  </main>
+
+  <footer>
+    <div>
+      <ul class="footer__list d-flex align-items-center">
+        <li><p class="footer__p">Contactanos por aca ></p></li>
+        <li><a href="#"></a><img class="img-fluid footer__img" src="../../assets/images/twitter-logo.webp" alt="Logo twitter"></li>
+        <li><a href="#"></a><img class="img-fluid footer__img" src="../../assets/images/facebook-logo.webp" alt="Logo facebook"></li>
+        <li><a href="#"></a><img class="img-fluid footer__img" src="../../assets/images/Instagram-logo.webp" alt="Logo instagram"></li>
+      </ul>
+    </div>
+  </footer>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

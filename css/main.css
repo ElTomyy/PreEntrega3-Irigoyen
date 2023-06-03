@@ -1,0 +1,228 @@
+.navbar a {
+  color: black;
+  font-weight: bold;
+}
+.navbar .nav-item a {
+  color: black;
+  font-weight: normal;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+.navbar .logo-edit {
+  height: 30px;
+  width: 20%;
+}
+.navbar .collapse.navbar-collapse {
+  flex-grow: inherit;
+}
+.navbar .nav-link:focus, .navbar .nav-link:hover {
+  color: black;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.header__content .header__img {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+}
+.header__content .header__img__second {
+  max-height: 80%;
+  width: 100%;
+}
+.header__content .header__div__p .header__p {
+  font-weight: bold;
+}
+
+.preg__header {
+  display: grid;
+}
+.preg__header .preg__header__h1 {
+  display: inline;
+  width: fit-content;
+  margin: 0px;
+  justify-self: center;
+  text-decoration: underline;
+  font-size: 140%;
+}
+.preg__header .preg__header__content {
+  justify-self: center;
+  display: grid;
+}
+.preg__header .preg__header__content .header__p__preg {
+  justify-self: center;
+  margin: 0px;
+  display: flex;
+  text-align: center;
+}
+.preg__header .preg__header__content .header__p__ans {
+  justify-self: center;
+  width: fit-content;
+  margin: 0px;
+  text-align: center;
+  max-width: 70%;
+}
+
+.main__hace-tu-pedido h1 {
+  text-decoration: underline;
+  font-size: 140%;
+}
+.main__hace-tu-pedido .header__form {
+  margin: 2% 5% auto 5%;
+}
+.main__hace-tu-pedido .header__form a {
+  text-decoration: none;
+}
+
+.main__proyectos h1 {
+  width: fit-content;
+  text-decoration: underline;
+  font-size: 150%;
+  text-align: center;
+}
+.main__proyectos h2 {
+  text-decoration: underline;
+}
+.main__proyectos .proyectos__img1, .main__proyectos .proyectos__img2, .main__proyectos .proyectos__img3, .main__proyectos .proyectos__img4 {
+  border-radius: 150px;
+  max-width: 600px;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.main__trabaja-con-nosotros h1 {
+  text-decoration: underline;
+  font-size: 140%;
+}
+.main__trabaja-con-nosotros .header__form {
+  margin: 2% 5% auto 5%;
+}
+.main__trabaja-con-nosotros .header__form a {
+  text-decoration: none;
+}
+
+.div__error .error__h1, .div__error .error__h2, .div__error .error__p {
+  justify-self: center;
+}
+.div__error .error__h2 {
+  margin-top: 5%;
+}
+.div__error .error__p {
+  max-width: 50%;
+  text-align: center;
+}
+
+.footer__list {
+  list-style-type: none;
+  justify-content: space-around;
+}
+.footer__list .footer__list li {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__list .footer__p {
+  font-weight: bold;
+  font-size: 75%;
+  margin: 0px;
+}
+.footer__list .footer__img {
+  width: 40%;
+  height: 40%;
+}
+
+@media (min-width: 576px) {
+  .header__content .header__order {
+    order: -1;
+  }
+  .header__content .header__div__p.flex-column {
+    display: grid !important;
+    max-width: 80%;
+    align-items: center;
+    justify-items: center;
+  }
+  .header__content .header__div__p .header__p {
+    font-size: 160%;
+    width: 80%;
+    text-align: center;
+  }
+  .header__content .header__div__img {
+    justify-content: end;
+  }
+  .header__content .header__img {
+    width: 100%;
+    height: auto;
+    border-radius: 150px 0px 0px 150px;
+    padding-top: 0px;
+  }
+  .header__content .header__img__second {
+    max-height: 410px;
+    border-radius: 0px 150px 150px 0px;
+    width: 90%;
+  }
+  .preg__header {
+    display: grid;
+  }
+  .preg__header .preg__header__h1 {
+    font-size: 250%;
+  }
+  .preg__header .preg__header__content {
+    display: grid;
+  }
+  .preg__header .preg__header__content .header__p__preg {
+    width: fit-content;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 180%;
+  }
+  .preg__header .preg__header__content .header__p__ans {
+    width: fit-content;
+    justify-self: center;
+    font-size: 150%;
+  }
+  .main h1 {
+    font-size: 200%;
+  }
+  .div__error {
+    height: calc(100vh - 222px);
+    align-content: space-around;
+  }
+  .div__error .error__p, .div__error .error__h2 {
+    height: fit-content;
+    align-self: center;
+    justify-self: start;
+  }
+  .div__error .error__h2 {
+    font-size: 500%;
+  }
+  .div__error .error__p {
+    font-size: 150%;
+    text-align: initial;
+    max-width: none;
+  }
+  .div__error .error__h1 {
+    font-size: 300%;
+    width: fit-content;
+    justify-self: center;
+    text-decoration: line-through;
+  }
+  .div__error .error__img {
+    width: 150%;
+    height: auto;
+  }
+  .footer__list {
+    padding-top: 5%;
+  }
+  .footer__list .footer__p {
+    font-size: 160%;
+  }
+  .footer__list .footer__img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
