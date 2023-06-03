@@ -34,6 +34,7 @@
 }
 .header__content .header__div__p .header__p {
   font-weight: bold;
+  text-align: center;
 }
 
 .preg__header {
@@ -56,6 +57,7 @@
   margin: 0px;
   display: flex;
   text-align: center;
+  font-weight: bold;
 }
 .preg__header .preg__header__content .header__p__ans {
   justify-self: center;
@@ -75,21 +77,22 @@
 .main__hace-tu-pedido .header__form a {
   text-decoration: none;
 }
+.main__hace-tu-pedido .header__form .div__boton {
+  display: grid;
+}
+.main__hace-tu-pedido .header__form .div__boton .boton {
+  justify-self: center;
+  font-size: 120%;
+}
 
 .main__proyectos h1 {
-  width: fit-content;
-  text-decoration: underline;
+  justify-content: center;
   font-size: 150%;
   text-align: center;
+  text-decoration: underline;
 }
 .main__proyectos h2 {
   text-decoration: underline;
-}
-.main__proyectos .proyectos__img1, .main__proyectos .proyectos__img2, .main__proyectos .proyectos__img3, .main__proyectos .proyectos__img4 {
-  border-radius: 150px;
-  max-width: 600px;
-  min-height: 400px;
-  max-height: 400px;
 }
 
 .main__trabaja-con-nosotros h1 {
@@ -101,6 +104,13 @@
 }
 .main__trabaja-con-nosotros .header__form a {
   text-decoration: none;
+}
+.main__trabaja-con-nosotros .header__form .div__boton {
+  display: grid;
+}
+.main__trabaja-con-nosotros .header__form .div__boton .boton {
+  justify-self: center;
+  font-size: 120%;
 }
 
 .div__error .error__h1, .div__error .error__h2, .div__error .error__p {
@@ -183,8 +193,20 @@
     justify-self: center;
     font-size: 150%;
   }
-  .main h1 {
+  .main__hace-tu-pedido h1 {
     font-size: 200%;
+  }
+  .main__proyectos h1 {
+    width: fit-content;
+  }
+  .main__proyectos .proyectos__img1, .main__proyectos .proyectos__img2, .main__proyectos .proyectos__img3, .main__proyectos .proyectos__img4 {
+    border-radius: 150px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 400px;
+  }
+  .main__trabaja-con-nosotros .header__form .div__boton .boton, .main__hace-tu-pedido .header__form .div__boton .boton {
+    justify-self: start;
   }
   .div__error {
     height: calc(100vh - 222px);

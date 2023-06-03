@@ -54,6 +54,7 @@
 
         .header__p{
             font-weight: bold;
+            text-align: center;
         }
 
     }
@@ -82,6 +83,7 @@
             margin: 0px;
             display: flex;
             text-align: center;
+            font-weight: bold;
         }
 
         .header__p__ans{
@@ -104,10 +106,19 @@
     }
 
     .header__form{
-        margin: 2% 5% auto 5%;
 
+        margin: 2% 5% auto 5%;
         a{
             text-decoration: none;
+        }
+        .div__boton{
+
+            display: grid;
+            .boton{
+
+                justify-self: center;
+                font-size: 120%;
+            }
         }
     }
 
@@ -118,20 +129,15 @@
 .main__proyectos{
 
     h1{
-        width: fit-content;
-        text-decoration: underline;
+        justify-content: center;
         font-size: 150%;
         text-align: center;
+        text-decoration: underline;
     }
     h2{
         text-decoration: underline;
     }
-    .proyectos__img1, .proyectos__img2, .proyectos__img3, .proyectos__img4{
-        border-radius: 150px;
-        max-width: 600px;
-        min-height: 400px;
-        max-height: 400px;
-    }
+
 }
 
 // Header trabaja con nosotros
@@ -144,10 +150,19 @@
     }
 
     .header__form{
-        margin: 2% 5% auto 5%;
 
+        margin: 2% 5% auto 5%;
         a{
             text-decoration: none;
+        }
+        .div__boton{
+
+            display: grid;
+            .boton{
+
+                justify-self: center;
+                font-size: 120%;
+            }
         }
     }
 
@@ -197,8 +212,6 @@
 // Media query
 
 @media(min-width: 576px){
-
-    // Navbar all
 
     // Header index
 
@@ -272,7 +285,7 @@
 
     // Header hace tu pedido
 
-    .main{
+    .main__hace-tu-pedido{
 
         h1{
             font-size: 200%;
@@ -281,9 +294,33 @@
 
     // Header proyectos
 
+    .main__proyectos{
 
+        h1{
+            width: fit-content;
+        }
+        .proyectos__img1, .proyectos__img2, .proyectos__img3, .proyectos__img4{
+            border-radius: 150px;
+            max-width: 600px;
+            min-height: 400px;
+            max-height: 400px;
+        }
+    }
 
     // Header trabaja con nosotros
+
+    .main__trabaja-con-nosotros, .main__hace-tu-pedido{
+
+        .header__form{
+            
+            .div__boton{
+
+                .boton{
+                    justify-self: start;
+                }
+            }
+        }
+    }
 
     // Error 404
 
