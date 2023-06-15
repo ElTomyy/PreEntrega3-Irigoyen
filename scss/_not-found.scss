@@ -1,0 +1,15 @@
+// Error 404
+
+.div__error{
+
+    .error__h1, .error__h2, .error__p{
+        justify-self: center;
+    }
+    .error__h2{
+        margin-top: 5%;
+    }
+    .error__p{
+        max-width: 50%;
+        text-align: center;
+    }
+}

@@ -1,40 +1,47 @@
-.navbar a {
-  color: black;
-  font-weight: bold;
+.main__hace-tu-pedido h1 {
+  text-decoration: underline;
+  font-size: 140%;
 }
-.navbar .nav-item a {
-  color: black;
-  font-weight: normal;
+.main__hace-tu-pedido .header__form {
+  margin: 2% 5% auto 5%;
 }
-.navbar .navbar-brand {
-  font-weight: bold;
+.main__hace-tu-pedido .header__form a {
+  text-decoration: none;
 }
-.navbar .logo-edit {
-  height: 30px;
-  width: 20%;
+.main__hace-tu-pedido .header__form .div__boton {
+  display: grid;
 }
-.navbar .collapse.navbar-collapse {
-  flex-grow: inherit;
-}
-.navbar .nav-link:focus, .navbar .nav-link:hover {
-  color: black;
-}
-.navbar .navbar-toggler:focus {
-  box-shadow: none;
+.main__hace-tu-pedido .header__form .div__boton .boton {
+  justify-self: center;
+  font-size: 120%;
 }
 
-.header__content .header__img {
-  width: 100%;
-  height: auto;
-  padding-top: 5%;
+.main__trabaja-con-nosotros h1 {
+  text-decoration: underline;
+  font-size: 140%;
 }
-.header__content .header__img__second {
-  max-height: 80%;
-  width: 100%;
+.main__trabaja-con-nosotros .header__form {
+  margin: 2% 5% auto 5%;
 }
-.header__content .header__div__p .header__p {
-  font-weight: bold;
+.main__trabaja-con-nosotros .header__form a {
+  text-decoration: none;
+}
+.main__trabaja-con-nosotros .header__form .div__boton {
+  display: grid;
+}
+.main__trabaja-con-nosotros .header__form .div__boton .boton {
+  justify-self: center;
+  font-size: 120%;
+}
+
+.main__proyectos h1 {
+  justify-content: center;
+  font-size: 150%;
   text-align: center;
+  text-decoration: underline;
+}
+.main__proyectos h2 {
+  text-decoration: underline;
 }
 
 .preg__header {
@@ -85,48 +92,49 @@
   font-size: 120%;
 }
 
-.main__proyectos h1 {
-  justify-content: center;
-  font-size: 150%;
-  text-align: center;
-  text-decoration: underline;
+.navbar a {
+  color: black;
+  font-weight: bold;
 }
-.main__proyectos h2 {
-  text-decoration: underline;
+.navbar .nav-item a {
+  color: black;
+  font-weight: normal;
 }
-
-.main__trabaja-con-nosotros h1 {
-  text-decoration: underline;
-  font-size: 140%;
+.navbar .navbar-brand {
+  font-weight: bold;
 }
-.main__trabaja-con-nosotros .header__form {
-  margin: 2% 5% auto 5%;
+.navbar .logo-edit {
+  height: 30px;
+  width: 20%;
 }
-.main__trabaja-con-nosotros .header__form a {
-  text-decoration: none;
+.navbar .collapse.navbar-collapse {
+  flex-grow: inherit;
 }
-.main__trabaja-con-nosotros .header__form .div__boton {
-  display: grid;
+.navbar .nav-link:focus, .navbar .nav-link:hover {
+  color: black;
 }
-.main__trabaja-con-nosotros .header__form .div__boton .boton {
-  justify-self: center;
-  font-size: 120%;
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
 }
 
-.div__error .error__h1, .div__error .error__h2, .div__error .error__p {
-  justify-self: center;
+.header__content .header__img {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
 }
-.div__error .error__h2 {
-  margin-top: 5%;
+.header__content .header__img__second {
+  max-height: 80%;
+  width: 100%;
 }
-.div__error .error__p {
-  max-width: 50%;
+.header__content .header__div__p .header__p {
+  font-weight: bold;
   text-align: center;
 }
 
 .footer__list {
   list-style-type: none;
   justify-content: space-around;
+  align-items: center;
 }
 .footer__list .footer__list li {
   margin-top: 5%;
@@ -201,9 +209,7 @@
   }
   .main__proyectos .proyectos__img1, .main__proyectos .proyectos__img2, .main__proyectos .proyectos__img3, .main__proyectos .proyectos__img4 {
     border-radius: 150px;
-    max-width: 600px;
-    min-height: 400px;
-    max-height: 400px;
+    height: 400px;
   }
   .main__trabaja-con-nosotros .header__form .div__boton .boton, .main__hace-tu-pedido .header__form .div__boton .boton {
     justify-self: start;

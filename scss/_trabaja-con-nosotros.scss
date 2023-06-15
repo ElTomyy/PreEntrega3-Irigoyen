@@ -1,0 +1,27 @@
+// Header trabaja con nosotros
+
+.main__trabaja-con-nosotros{
+
+    h1{
+        text-decoration: underline;
+        font-size: 140%;
+    }
+
+    .header__form{
+
+        margin: 2% 5% auto 5%;
+        a{
+            text-decoration: none;
+        }
+        .div__boton{
+
+            display: grid;
+            .boton{
+
+                justify-self: center;
+                font-size: 120%;
+            }
+        }
+    }
+
+}
